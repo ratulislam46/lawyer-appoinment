@@ -19,13 +19,13 @@ export const router = createBrowserRouter([
         {
           index: true,
           Path: '/',
-          loader: ()=> fetch('/data.json'),
+          loader: ()=> fetch('../data.json'),
           hydrateFallbackElement: <p>Loading .... </p>,
           Component : Home
         },
         {
           path:'/viewDetails/:id',
-          loader: ()=> fetch('/data.json'),
+          loader: ()=> fetch('../data.json'),
           Component: ViewDetails
         },
         {

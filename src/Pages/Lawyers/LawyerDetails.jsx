@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const LawyerDetails = ({ lawyer }) => {
 
@@ -18,9 +19,12 @@ const LawyerDetails = ({ lawyer }) => {
                 <h2 className="card-title text-xl lg:text-2xl">{name}</h2>
                 <p className='text-gray-600'>{speciality}</p>
                 <p className='text-gray-600'>License No : {licenseNumber}</p>
-                <div className="card-actions justify-start">
-                    <button className="btn w-full rounded-2xl hover:bg-[#ff758f] hover:text-white">View Details</button>
-                </div>
+
+                <Link to={`/viewDetails/${id}`}>
+                    <div className="card-actions justify-start">
+                        <button className="btn w-full rounded-2xl hover:bg-[#ff758f] hover:text-white">View Details</button>
+                    </div>
+                </Link>
             </div>
         </div>
     );
