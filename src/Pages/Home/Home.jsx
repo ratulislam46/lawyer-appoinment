@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import Banner from './Banner';
 import Lawyers from '../Lawyers/Lawyers';
 import { useLoaderData } from 'react-router';
+import Service from './Service';
 
 const Home = () => {
 
-    const data= useLoaderData();
+    const data = useLoaderData();
     // console.log(data);
 
     return (
         <div>
             <Banner></Banner>
-            
-            <div>
+
+            <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
                 <Lawyers data={data}></Lawyers>
-            </div>
+            </Suspense>
+
+            <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+                <Service></Service>
+            </Suspense>
         </div>
     );
 };
