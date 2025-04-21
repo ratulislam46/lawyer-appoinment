@@ -9,7 +9,7 @@ const NoLawyars = () => {
 
             <Link to='/'>
                 <div className=" justify-center mt-6">
-                    <button className="btn rounded-3xl bg-[#ffd166] hover:bg-[#ff758f] hover:text-white px-12">Go Back Home</button>
+                    <button className="btn rounded-3xl bg-[#ffd166] hover:bg-[#ff758f] hover:text-white px-12">Book an Appointment</button>
                 </div>
             </Link>
         </div>

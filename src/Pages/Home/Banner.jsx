@@ -3,10 +3,10 @@ import React from 'react';
 const Banner = () => {
     return (
         <div
-            className="hero "
+            className="hero h-[600px] mt-1"
             style={{
                 backgroundImage:
-                    "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
+                    "url(https://i.postimg.cc/14xmHYJy/banner.png)",
             }}
         >
             <div className="hero-overlay"></div>

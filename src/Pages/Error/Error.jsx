@@ -1,9 +1,12 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
+import Navbar from '../../Components/Navbar/Navbar';
 
 const Error = () => {
     return (
         <div>
-            <h1>This is error</h1>
+            <Navbar></Navbar>
+            <Contact></Contact>
         </div>
     );
 };

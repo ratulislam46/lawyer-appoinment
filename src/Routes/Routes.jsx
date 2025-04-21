@@ -8,6 +8,7 @@ import Blogs from '../Pages/Blogs/Blogs'
 import Contact from '../Pages/Contact/Contact';
 import Error from '../Pages/Error/Error'
 import ViewDetails from '../Pages/Lawyers/ViewDetails';
+import ViewDError from '../Pages/Lawyers/viewDError';
 
 
 export const router = createBrowserRouter([
@@ -27,7 +28,8 @@ export const router = createBrowserRouter([
           path:'/viewDetails/:id',
           loader: ()=> fetch('../data.json'),
           hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
-          Component: ViewDetails
+          Component: ViewDetails,
+          errorElement: <ViewDError></ViewDError>
         },
         {
           path: '/booking',
