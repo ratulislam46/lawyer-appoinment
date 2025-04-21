@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLoaderData, useParams } from 'react-router';
+import { addBook } from '../../Utility';
 
 
 const ViewDetails = () => {
@@ -12,6 +13,12 @@ const ViewDetails = () => {
     // console.log(singleLawyer);
 
     const { name, image, speciality, experience, licenseNumber, availability, fee } = singleLawyer;
+
+
+    // book apointment buttons code 
+    const handleButton = () => {
+        addBook(singleLawyer)
+    }
     return (
         <div className='my-6 mx-2 md:mx-2 lg:mx-0'>
 
@@ -41,11 +48,16 @@ const ViewDetails = () => {
                 </div>
             </div>
 
+            {/* Book appointment button  */}
             <div className='border border-gray-300 p-5 mb-5 rounded-xl'>
                 <h1 className='text-center text-4xl'>Book an Appointment</h1>
                 <p className='flex justify-between'><span>Availability</span> <span>Lawyer Available Today</span></p>
                 <p>Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
-                <Link><button className='btn w-full'>Book Appointment Now</button></Link>
+
+                <Link onClick={handleButton}>
+                <button className='btn w-full'>Book Appointment Now</button>
+                </Link>
+
             </div>
 
         </div>
