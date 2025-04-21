@@ -14,6 +14,7 @@ const LawyerDetails = ({ lawyer }) => {
                     src={image}
                     alt="Movie" />
             </figure>
+            
             <div className="card-body w-2/3">
                 <p><span className='bg-green-100 py-1 px-3 rounded-2xl text-green-600 mr-4 inline-block md:block lg:inline-block mb-0 md:mb-2 lg:mb-0'>Available</span><span className='bg-blue-100 py-1 px-4 rounded-2xl text-blue-600'>{experience}</span></p>
                 <h2 className="card-title text-xl lg:text-2xl">{name}</h2>

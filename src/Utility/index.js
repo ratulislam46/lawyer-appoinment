@@ -1,3 +1,6 @@
+import toast from "react-hot-toast";
+
+
 
 export const getBook = () => {
     const check = localStorage.getItem("booking");
@@ -9,14 +12,18 @@ export const getBook = () => {
 export const addBook = Lawyer => {
     const check = getBook();
     const isExist = check.find(p=> p.id === Lawyer.id);
-    if(isExist) return console.log('already acheee');
+    if(isExist) return toast.error('Already booked your appointment');
         check.push(Lawyer)
-    localStorage.setItem("booking", JSON.stringify(check))
+
+        toast.success(`Successfully Booked your appointment near ${Lawyer.name}`)
+
+    localStorage.setItem("booking", JSON.stringify(check));
 }
 
 
 export const removeBook = id => {
     const check = getBook();
     const remainingBook = check.filter(book => book.id !==id);
-    localStorage.setItem("booking", JSON.stringify(remainingBook))
+    localStorage.setItem("booking", JSON.stringify(remainingBook));
+    toast.success('removed your appointment')
 }
