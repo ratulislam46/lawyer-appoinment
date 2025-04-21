@@ -40,11 +40,9 @@ const Service = () => {
 
 
                 {/* react countup  */}
-                <div style={{
+                {/* <div style={{
                     width: '100px',
                     background:'black',
-                    marginTop: '500px',
-                    marginBottom:'200px',
                     color: 'white',
                     padding:'50px',
 
@@ -52,7 +50,7 @@ const Service = () => {
                     <h1>
                         <CountUp start={0} end={800} duration={1000} delay={0}></CountUp>
                     </h1>
-                </div>
+                </div> */}
             </div>
         </div>
 

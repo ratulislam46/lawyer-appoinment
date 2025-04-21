@@ -61,7 +61,7 @@ const ViewDetails = () => {
                 <p className='text-yellow-400 py-4 flex items-center gap-1'> <span><BiError size={20} /></span> Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
 
                 <Link onClick={handleButton}>
-                    <button className='btn w-full bg-[#ef476f] hover:bg-green-500 rounded-3xl text-white'>Book Appointment Now</button>
+                    <button className='btn w-full hover:bg-[#ef476f] bg-green-500 rounded-3xl text-white'>Book Appointment Now</button>
                 </Link>
 
             </div>
