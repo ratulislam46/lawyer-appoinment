@@ -15,10 +15,10 @@ const Footer = () => {
             {/* all link here  */}
             <nav className="grid grid-flow-col gap-4 border-b border-dashed">
                 <ul className="menu menu-horizontal px-1">
-                    <NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold ' : 'text-gray-400'} to='/'><li><a>Home</a></li></NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold ' : 'text-gray-400'} to='/booking'><li><a>Booking</a></li></NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold' : 'text-gray-400'} to='/blogs'><li><a>blogs</a></li></NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold ' : 'text-gray-400'} to='/contact'><li><a>Contact</a></li></NavLink>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold ' : 'text-gray-400'} to='/'>Home</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold ' : 'text-gray-400'} to='/booking'>Booking</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold' : 'text-gray-400'} to='/blogs'>blogs</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-red-500 font-bold ' : 'text-gray-400'} to='/contact'>Contact</NavLink></li>
                 </ul>
             </nav>
 

@@ -13,10 +13,10 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
 
-                        <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'><li><a>Home</a></li></NavLink>
-                        <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'><li><a>Booking</a></li></NavLink>
-                        <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'><li><a>blogs</a></li></NavLink>
-                        <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'><li><a>Contact</a></li></NavLink>
+                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'>Home</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'>Booking</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>blogs</NavLink></li>
+                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>Contact</NavLink></li>
 
                     </ul>
                 </div>
@@ -24,10 +24,10 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'><li><a>Home</a></li></NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'><li><a>Booking</a></li></NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'><li><a>blogs</a></li></NavLink>
-                    <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'><li><a>Contact</a></li></NavLink>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'>Home</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'>Booking</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>blogs</NavLink></li>
+                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>Contact</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end ">

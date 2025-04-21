@@ -6,7 +6,9 @@
       "speciality": "Criminal Law",
       "experience": "10+ years Experience",
       "licenseNumber": "LAW123456",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 500
     },
     {
       "id": 2,
@@ -15,7 +17,9 @@
       "speciality": "Family Law",
       "experience": "8+ years Experience",
       "licenseNumber": "LAW654321",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 400
     },
     {
       "id": 3,
@@ -24,7 +28,9 @@
       "speciality": "Corporate Law",
       "experience": "12+ years Experience",
       "licenseNumber": "LAW987654",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 700
     },
     {
       "id": 4,
@@ -33,7 +39,9 @@
       "speciality": "Immigration Law",
       "experience": "6+ years Experience",
       "licenseNumber": "LAW112233",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Wednesday, Thursday"],
+      "fee": 800
     },
     {
       "id": 5,
@@ -42,7 +50,9 @@
       "speciality": "Civil Rights Law",
       "experience": "9+ years Experience",
       "licenseNumber": "LAW223344",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Friday, Thursday"],
+      "fee": 500
     },
     {
       "id": 6,
@@ -51,7 +61,9 @@
       "speciality": "Real Estate Law",
       "experience": "4+ years Experience",
       "licenseNumber": "LAW334455",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 300
     },
     {
       "id": 7,
@@ -60,7 +72,9 @@
       "speciality": "Environmental Law",
       "experience": "7+ years Experience",
       "licenseNumber": "LAW445566",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Saturday, Monday, Thursday"],
+      "fee": 400
     },
     {
       "id": 8,
@@ -69,7 +83,9 @@
       "speciality": "Employment Law",
       "experience": "10+ years Experience",
       "licenseNumber": "LAW556677",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Wednesday"],
+      "fee": 700
     },
     {
       "id": 9,
@@ -78,7 +94,9 @@
       "speciality": "Intellectual Property Law",
       "experience": "13+ years Experience",
       "licenseNumber": "LAW667788",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 500
     },
     {
       "id": 10,
@@ -87,7 +105,9 @@
       "speciality": "Bankruptcy Law",
       "experience": "6+ years Experience",
       "licenseNumber": "LAW778899",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 500
     },
     {
       "id": 11,
@@ -96,7 +116,9 @@
       "speciality": "Health Law",
       "experience": "5+ years Experience",
       "licenseNumber": "LAW889900",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 600
     },
     {
       "id": 12,
@@ -105,6 +127,8 @@
       "speciality": "International Law",
       "experience": "12+ years Experience",
       "licenseNumber": "LAW990011",
-      "button": "View Details"
+      "button": "View Details",
+      "availability": ["Sunday, Monday, Thursday"],
+      "fee": 300
     }
   ]
