@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { getBook } from '../../Utility';
+import { getBook, removeBook } from '../../Utility';
 import LawyerDetails from '../Lawyers/LawyerDetails'
 import NoLawyars from './NoLawyars';
+import AfterBooking from './AfterBooking';
 
 const Booking = () => {
 
@@ -13,15 +14,21 @@ const Booking = () => {
     },[])
 
 
+    const handleDelete = id => {
+        removeBook(id)
+        setDisplayLayers(getBook())
+    }
+
+
     if(displayLawyers.length < 1) return <NoLawyars></NoLawyars>
 
     return (
-        <div className='my-8'>
+        <div className='my-12'>
             <h1 className='text-center font-semibold text-5xl'>My Today Appointments</h1>
-            <p className='text-center text-xl px-12 mt-5 mb-12 text-gray-500 '>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-x-0 lg:gap-4 mb-5 md:mb-0'>
+            <p className='text-center text-xl px-12 mt-5 mb-20 text-gray-500 '>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
+            <div>
                 {
-                    displayLawyers.map(lawyer => <LawyerDetails key={lawyer.id} lawyer={lawyer}></LawyerDetails>)
+                    displayLawyers.map(booked => <AfterBooking key={booked.id} booked={booked} handleDelete={handleDelete}></AfterBooking>)
                 }
             </div>
         </div>
