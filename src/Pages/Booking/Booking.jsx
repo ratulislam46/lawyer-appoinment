@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getBook } from '../../Utility';
 import LawyerDetails from '../Lawyers/LawyerDetails'
+import NoLawyars from './NoLawyars';
 
 const Booking = () => {
 
@@ -10,6 +11,9 @@ const Booking = () => {
         const saveBooking = getBook();
         setDisplayLayers(saveBooking)
     },[])
+
+
+    if(displayLawyers.length < 1) return <NoLawyars></NoLawyars>
 
     return (
         <div className='my-8'>

@@ -4,7 +4,7 @@ import { Link } from 'react-router';
 
 const Contact = () => {
     return (
-        <div className='text-center my-24'>
+        <div className='text-center mt-12'>
             <div className='flex justify-center'>
                 <img src={Error} alt="" />
             </div>
