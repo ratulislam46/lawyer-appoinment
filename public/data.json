@@ -7,7 +7,7 @@
       "experience": "10+ years Experience",
       "licenseNumber": "LAW123456",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Monday", "Thursday"],
       "fee": 500
     },
     {
@@ -18,7 +18,7 @@
       "experience": "8+ years Experience",
       "licenseNumber": "LAW654321",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Monday", "Thursday"],
       "fee": 400
     },
     {
@@ -29,7 +29,7 @@
       "experience": "12+ years Experience",
       "licenseNumber": "LAW987654",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "fee": 700
     },
     {
@@ -40,7 +40,7 @@
       "experience": "6+ years Experience",
       "licenseNumber": "LAW112233",
       "button": "View Details",
-      "availability": ["Sunday, Wednesday, Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "fee": 800
     },
     {
@@ -51,7 +51,7 @@
       "experience": "9+ years Experience",
       "licenseNumber": "LAW223344",
       "button": "View Details",
-      "availability": ["Sunday, Friday, Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "fee": 500
     },
     {
@@ -62,7 +62,7 @@
       "experience": "4+ years Experience",
       "licenseNumber": "LAW334455",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "fee": 300
     },
     {
@@ -73,7 +73,7 @@
       "experience": "7+ years Experience",
       "licenseNumber": "LAW445566",
       "button": "View Details",
-      "availability": ["Saturday, Monday, Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "fee": 400
     },
     {
@@ -84,7 +84,7 @@
       "experience": "10+ years Experience",
       "licenseNumber": "LAW556677",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Wednesday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "fee": 700
     },
     {
@@ -95,7 +95,7 @@
       "experience": "13+ years Experience",
       "licenseNumber": "LAW667788",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Monday", "Thursday"],
       "fee": 500
     },
     {
@@ -106,7 +106,7 @@
       "experience": "6+ years Experience",
       "licenseNumber": "LAW778899",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Monday", "Thursday"],
       "fee": 500
     },
     {
@@ -117,7 +117,7 @@
       "experience": "5+ years Experience",
       "licenseNumber": "LAW889900",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Monday", "Thursday"],
       "fee": 600
     },
     {
@@ -128,7 +128,7 @@
       "experience": "12+ years Experience",
       "licenseNumber": "LAW990011",
       "button": "View Details",
-      "availability": ["Sunday, Monday, Thursday"],
+      "availability": ["Sunday", "Monday", "Thursday"],
       "fee": 300
     }
   ]
