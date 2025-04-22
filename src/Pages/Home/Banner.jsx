@@ -6,7 +6,7 @@ const Banner = () => {
             className="hero h-[400px] md:h-[500px] lg:h-[600px] mt-1"
             style={{
                 backgroundImage:
-                    "url(https://i.postimg.cc/14xmHYJy/banner.png)",
+                    "url(https://i.postimg.cc/TPhfZWgk/banner.png)",
             }}
         >
             <div className="hero-overlay"></div>
