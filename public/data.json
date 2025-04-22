@@ -8,7 +8,7 @@
       "licenseNumber": "LAW123456",
       "button": "View Details",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "fee": 500
+      "fee": 700
     },
     {
       "id": 2,
@@ -19,7 +19,7 @@
       "licenseNumber": "LAW654321",
       "button": "View Details",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "fee": 400
+      "fee": 600
     },
     {
       "id": 3,
@@ -63,7 +63,7 @@
       "licenseNumber": "LAW334455",
       "button": "View Details",
       "availability": ["Sunday", "Wednesday", "Thursday"],
-      "fee": 300
+      "fee": 400
     },
     {
       "id": 7,
@@ -74,7 +74,7 @@
       "licenseNumber": "LAW445566",
       "button": "View Details",
       "availability": ["Sunday", "Wednesday", "Thursday"],
-      "fee": 400
+      "fee": 600
     },
     {
       "id": 8,
@@ -107,7 +107,7 @@
       "licenseNumber": "LAW778899",
       "button": "View Details",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "fee": 500
+      "fee": 800
     },
     {
       "id": 11,
@@ -129,6 +129,6 @@
       "licenseNumber": "LAW990011",
       "button": "View Details",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "fee": 300
+      "fee": 700
     }
   ]
