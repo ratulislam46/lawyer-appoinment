@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 const AfterBooking = ({ booked, handleDelete }) => {
-    console.log(booked);
+    // console.log(booked);
 
     return (
         <div>

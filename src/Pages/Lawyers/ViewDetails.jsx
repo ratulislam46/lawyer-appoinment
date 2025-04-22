@@ -33,7 +33,7 @@ const ViewDetails = () => {
             {/* details section  */}
             <div className='flex space-x-5 border border-gray-300 rounded-xl p-5 my-5 items-center'>
                 <div>
-                    <img src={image} alt="Lawyer photo" />
+                    <img src={image} alt="Lawyer photo" className='p-4 rounded-lg' />
                 </div>
                 <div className='space-y-4'>
                     <p className='text-blue-600 px-4 py-1 bg-blue-100 text-center rounded-lg inline-block'>{experience}</p>

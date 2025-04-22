@@ -2,26 +2,32 @@
     {
         "id": 1,
         "question": "What is useState and how does it work in React ?",
-        "ans": "coming soon"
+        "ans": " UseState is React Hook that allows functional components to have state. It re-renders the component when the state changes.",
+        "example": "cons [ blog, setBlog] = useState( [] / {} / null /  true/false/ number )",
+        "explain": ["blog = current state value", "setBlog = function to update the state", "useState = initial value"]
     },
     {
         "id": 2,
         "question": "What is the purpose of useEffect in React ?",
-        "ans": "coming soon"
+        "ans": "It help manage things outside of Reast's rendering flow. We use use useEffect to handle tasks that need to happen after the component renders.",
+        "explain": [""]
     },
     {
         "id": 3,
         "question": "What is a custom hook in React and when should you use one ?",
-        "ans": "coming soon"
+        "ans": " A custom hook in React is a JavaScript function that starts with use and allow you to resue stateful logic across multiple components. ",
+        "explain": ["To avaoid repeating code", " To organize and clean up logic", "To share logic between components without affecting UI"]
     },
     {
         "id": 4,
         "question": "Difference between controlled and uncontrolled components. Which one is better ?",
-        "ans": "coming soon"
+        "ans": " Comtrolled Components are best in most cases.",
+        "explain": [" Controlled Component : Full control over the input", "Uncontrolled Component : Limited control","Controlled Component : uses useState to handle input values", "Uncontrolled Components : Uses ref To access input values directlys"]
     },
     {
         "id": 5,
         "question": "Tell us something about useFormStatus() in React ?",
-        "ans": "coming soon"
+        "ans": "useFormStatus is a React Hook introduced for React SErver Components. It helps track the status of a form submission",
+        "explain": [""]
     }
 ]

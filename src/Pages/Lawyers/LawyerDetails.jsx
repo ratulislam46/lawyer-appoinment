@@ -23,7 +23,7 @@ const LawyerDetails = ({ lawyer }) => {
 
                 <Link to={`/viewDetails/${id}`}>
                     <div className="card-actions justify-start">
-                        <button className="btn w-full rounded-2xl hover:bg-[#ff758f] hover:text-white">View Details</button>
+                        <button className="btn  border-blue-300 hover:border-[#ff758f] w-full rounded-2xl hover:bg-[#ff758f] hover:text-white">View Details</button>
                     </div>
                 </Link>
             </div>

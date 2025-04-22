@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router';
+import logo from '../../assets/logo.png'
 
 const Navbar = () => {
     return (
@@ -20,7 +21,10 @@ const Navbar = () => {
 
                     </ul>
                 </div>
-                <a className=" text-xl font-bold"><span className='text-[#ef476f]'>LAW</span>.BD</a>
+                <p className=" text-xl font-bold flex">
+                    <img src={logo} alt="logo" className='w-8' />
+                    <span className='text-[#ef476f]'>LAW</span>.BD
+                </p>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
@@ -30,7 +34,7 @@ const Navbar = () => {
                     <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>Contact</NavLink></li>
                 </ul>
             </div>
-            <div className="navbar-end ">
+            <div className="navbar-end hidden md:flex">
                 <a className="btn bg-[#ef476f] py-2 rounded-3xl px-4 text-white">Contact Now</a>
             </div>
         </div>
