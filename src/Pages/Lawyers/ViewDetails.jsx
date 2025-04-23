@@ -60,7 +60,7 @@ const ViewDetails = () => {
                 <p className='flex justify-between border-b border-gray-400 pb-2'><span className='font-bold'>Availability</span> <span className='font-semibold text-[#ef476f]'>Lawyer Available Today</span></p>
                 <p className='text-yellow-400 py-4 flex items-center gap-1'> <span><BiError size={20} /></span> Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
 
-                <Link onClick={handleButton}>
+                <Link to='/booking' onClick={handleButton}>
                     <button className='btn w-full hover:bg-[#ef476f] bg-green-500 rounded-3xl text-white'>Book Appointment Now</button>
                 </Link>
 
