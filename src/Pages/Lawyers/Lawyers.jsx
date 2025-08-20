@@ -16,6 +16,7 @@ const Lawyers = ({ data }) => {
             setDisplayLawyers(data.slice(0, 6))
         }
     }, [data, showAll])
+    // console.log(displayLawyers);
 
     return (
         <div className='mt-16 mb-12'>

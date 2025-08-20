@@ -8,10 +8,7 @@ const ViewDetails = () => {
 
     const { id } = useParams();
     const data = useLoaderData();
-    // console.log(id);
-
     const singleLawyer = data.find(lawyer => lawyer.id === parseInt(id));
-    // console.log(singleLawyer);
 
     const { name, image, speciality, experience, licenseNumber, availability, fee } = singleLawyer;
 
@@ -61,7 +58,10 @@ const ViewDetails = () => {
                 <p className='text-yellow-400 py-4 flex items-center gap-1'> <span><BiError size={20} /></span> Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>
 
                 <Link to='/booking' onClick={handleButton}>
-                    <button className='btn w-full hover:bg-[#ef476f] bg-green-500 rounded-3xl text-white'>Book Appointment Now</button>
+                    <button
+                        className='btn w-full hover:bg-[#ef476f] bg-green-500 rounded-3xl text-white'>
+                        Book Appointment Now
+                    </button>
                 </Link>
 
             </div>

@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 const LawyerDetails = ({ lawyer }) => {
 
     // console.log(lawyer);
-
     const { id, name, image, speciality, experience, licenseNumber } = lawyer;
 
     return (
