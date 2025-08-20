@@ -7,7 +7,7 @@ const LawyerDetails = ({ lawyer }) => {
     const { id, name, image, speciality, experience, licenseNumber } = lawyer;
 
     return (
-        <div className="card card-side bg-[#f8ebef] shadow-sm hover:shadow-lg duration-300 transform border border-gray-200 p-4 mx-4 lg:mx-0">
+        <div data-aos="fade-up" className="card card-side bg-[#f8ebef] shadow-sm hover:shadow-lg duration-300 transform border border-gray-200 p-4 mx-4 lg:mx-0">
             <figure className='w-1/3 bg-[#cbf3f0] rounded-lg'>
                 <img
                     src={image}

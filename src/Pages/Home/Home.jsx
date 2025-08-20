@@ -10,7 +10,7 @@ const Home = () => {
     // console.log(data);
 
     return (
-        <div>
+        <div className='container mx-auto'>
             <Banner></Banner>
 
             <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>

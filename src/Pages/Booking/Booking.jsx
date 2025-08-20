@@ -1,11 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { getBook, removeBook } from '../../Utility';
-import LawyerDetails from '../Lawyers/LawyerDetails'
 import NoLawyars from './NoLawyars';
 import AfterBooking from './AfterBooking';
 import { Bar, BarChart, Tooltip, XAxis, YAxis } from 'recharts';
-import { BsTriangle } from 'react-icons/bs';
-import { TbTriangle } from 'react-icons/tb';
 
 const Booking = () => {
 

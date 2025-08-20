@@ -10,7 +10,7 @@ export const getBook = () => {
 
 
 export const addBook = Lawyer => {
-    const check = getBook();
+    const check = Array.isArray(getBook()) ? getBook() : [getBook()];
     const isExist = check.find(p => p.id === Lawyer.id);
     if (isExist) return toast.error('Already booked your appointment');
     check.push(Lawyer)
