@@ -9,7 +9,7 @@ import { TbTriangle } from 'react-icons/tb';
 
 const Booking = () => {
 
-    const [displayLawyers, setDisplayLayers] = useState([]);
+    const [displayLawyers, setDisplayLayers] = useState({});
 
     useEffect(() => {
         const saveBooking = getBook();
@@ -21,7 +21,7 @@ const Booking = () => {
         removeBook(id)
         setDisplayLayers(getBook())
     }
-
+// console.log(displayLawyers);
 
     const booked = [...displayLawyers];
     console.log(booked);
@@ -50,7 +50,7 @@ const Booking = () => {
             <p className='text-center text-xl px-12 mt-5 mb-20 text-gray-500 '>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
             <div>
                 {
-                    displayLawyers.map(booked => <AfterBooking key={booked.id} booked={booked} handleDelete={handleDelete}></AfterBooking>)
+                    displayLawyers?.map(booked => <AfterBooking key={booked.id} booked={booked} handleDelete={handleDelete}></AfterBooking>)
                 }
             </div>
         </div>

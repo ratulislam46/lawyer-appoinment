@@ -12,43 +12,46 @@ import ViewDError from '../Pages/Lawyers/viewDError';
 
 
 export const router = createBrowserRouter([
-    {
-      path: '/',
-      Component: Root,
-      errorElement: <Error></Error>,
-      children : [
-        {
-          index: true,
-          Path: '/',
-          loader: ()=> fetch('../data.json'),
-          hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
-          Component : Home 
-        },
-        {
-          path:'/viewDetails/:id',
-          loader: ()=> fetch('../data.json'),
-          hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
-          Component: ViewDetails,
-          errorElement: <ViewDError></ViewDError>
-        },
-        {
-          path: '/booking',
-          Component: Booking
-        },
-        {
-          path: '/blogs',
-          loader: ()=> fetch('../blog.json'),
-          hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
-          Component: Blogs
-        },
-        {
-          path: '/contact',
-          Component: Contact
-        }
-      ]
-    },
-    {
-      path: '/app',
-      Component : App
-    }
-  ])
+  {
+    path: '/',
+    Component: Root,
+    // errorElement: <Error></Error>,
+    children: [
+      {
+        index: true,
+        Path: '/',
+        loader: () => fetch('../data.json'),
+        hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
+        Component: Home
+      },
+      {
+        path: '/viewDetails/:id',
+        loader: () => fetch('../data.json'),
+        hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
+        Component: ViewDetails
+      },
+      {
+        path: '/booking',
+        Component: Booking
+      },
+      {
+        path: '/blogs',
+        loader: () => fetch('../blog.json'),
+        hydrateFallbackElement: <span className="loading loading-bars loading-xl"></span>,
+        Component: Blogs
+      },
+      {
+        path: '/contact',
+        Component: Contact
+      }
+    ]
+  },
+  {
+    path: '/app',
+    Component: App
+  },
+  {
+    path: '/*',
+    Component: Error
+  }
+])

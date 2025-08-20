@@ -16,13 +16,10 @@ const Service = () => {
         <div className='mt-12 mb-6'>
 
 
-            <h1 className='text-center text-5xl'>We Provide Best Law Services</h1>
-            <p className='text-center px-12 my-5 text-gray-500 text-lg'>Our platform connects you with verified, experienced Lawyers across various specialities — all at your convenience. </p>
+            <h1 className='text-center text-3xl md:text-4xl lg:text-5xl mt-16 mb-12'>We Provide Best Law Services</h1>
+            <div ref={ref} className='grid grid-cols-2 md:grid-cols-4 gap-4 px-1 lg:px-0'>
 
-
-            <div ref={ref} className='grid grid-cols-2 md:grid-cols-4 gap-4'>
-                
-                <div className='border border-gray-200 p-5 rounded-xl  space-y-2 bg-gray-100'> 
+                <div className='border border-gray-200 p-5 rounded-xl  space-y-2 bg-gray-100'>
                     <img src={Lawyer} alt="lawyer" />
                     <h1 className='font-bold text-5xl'>
                         {
@@ -64,7 +61,7 @@ const Service = () => {
                             <CountUp
                                 key={inView}
                                 start={0}
-                                end={1900}
+                                end={900}
                                 duration={10}>
                             </CountUp>
                         }

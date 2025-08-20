@@ -14,10 +14,26 @@ const Navbar = () => {
                         tabIndex={0}
                         className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
 
-                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'>Home</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'>Booking</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>blogs</NavLink></li>
-                        <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>Contact</NavLink></li>
+                        <li>
+                            <NavLink to='/' className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''}>
+                                Home
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'>
+                                Booking
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>
+                                blogs
+                            </NavLink>
+                        </li>
+                        <li>
+                            <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>
+                                Contact
+                            </NavLink>
+                        </li>
 
                     </ul>
                 </div>
@@ -28,10 +44,29 @@ const Navbar = () => {
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
-                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'>Home</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'>Booking</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>blogs</NavLink></li>
-                    <li><NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>Contact</NavLink></li>
+                    <li>
+                        <NavLink
+                            className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/'>
+                            Home
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/booking'>
+                            Booking
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink
+                            className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>
+                            blogs
+                        </NavLink>
+                    </li>
+                    <li>
+                        <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>
+                            Contact
+                        </NavLink>
+                    </li>
                 </ul>
             </div>
             <div className="navbar-end hidden md:flex">

@@ -21,17 +21,17 @@ const ViewDetails = () => {
         addBook(singleLawyer)
     }
     return (
-        <div className='my-6 mx-2 md:mx-2 lg:mx-0'>
+        <div className='mt-16 mx-2 md:mx-2 lg:mx-0'>
 
             {/* layer profile title and description  */}
-            <div className='border border-gray-300 p-5 rounded-xl'>
-                <h1 className='text-center text-5xl'>Lawyer's Profile Details</h1>
-                <p className='text-center px-12 my-5 text-gray-500 text-lg'>A dedicated and experienced lawyer specializing in civil and criminal law, committed to providing clients with expert legal advice and strong representation. Known for a strategic approach and excellent negotiation skills, ensuring the best possible outcomes.
+            <div className=' p-5 rounded-xl'>
+                <h1 className='text-center text-3xl md:text-4xl lg:text-5xl font-bold'>Lawyer's Profile Details</h1>
+                <p className='text-center px-4 mb-12 mt-5 text-gray-500 text-lg'>A dedicated and experienced lawyer specializing in civil and criminal law, committed to providing clients with expert legal advice and strong representation. Known for a strategic approach and excellent negotiation skills, ensuring the best possible outcomes.
                 </p>
             </div>
 
             {/* details section  */}
-            <div className='flex space-x-5 border border-gray-300 rounded-xl p-5 my-5 items-center'>
+            <div className='flex space-x-5 border border-gray-300 rounded-xl p-5 items-center'>
                 <div>
                     <img src={image} alt="Lawyer photo" className='p-4 rounded-lg' />
                 </div>
@@ -42,16 +42,16 @@ const ViewDetails = () => {
                     <div className='flex gap-4'>
                         <p className='font-semibold text-xl'>Availability : </p>
                         {
-                            availability.map((available, index) => <p className='text-yellow-400 text-xl' key={index}>{available}</p>)
+                            availability.map((available, index) => <p className='text-green-500 text-xl' key={index}>{available}</p>)
                         }
                     </div>
-                    <p className='font-semibold text-xl'>Consultation Fee: <span className='text-green-600'>Taka {fee}</span></p>
+                    <p className='font-semibold text-xl'>Consultation Fee: <span className='text-green-500'> {fee} TK.</span></p>
                 </div>
             </div>
 
             {/* title  */}
-            <div className='mb-4'>
-                <h1 className='text-center text-4xl font-bold'>Book an Appointment</h1>
+            <div className='mt-16 mb-12'>
+                <h1 className='text-center text-3xl md:text-4xl lg:text-5xl font-bold'>Book an Appointment</h1>
             </div>
 
             {/* Book appointment button  */}
