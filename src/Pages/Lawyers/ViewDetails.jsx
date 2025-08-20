@@ -18,7 +18,7 @@ const ViewDetails = () => {
         addBook(singleLawyer)
     }
     return (
-        <div className='mt-16 mx-2 md:mx-2 lg:mx-0'>
+        <div className='mt-16 container mx-auto'>
 
             {/* layer profile title and description  */}
             <div className=' p-5 rounded-xl'>
@@ -28,7 +28,7 @@ const ViewDetails = () => {
             </div>
 
             {/* details section  */}
-            <div className='flex space-x-5 border border-gray-300 rounded-xl p-5 items-center'>
+            <div className='bg-white flex space-x-5 border border-gray-300 rounded-xl p-5 items-center'>
                 <div>
                     <img src={image} alt="Lawyer photo" className='p-4 rounded-lg' />
                 </div>
@@ -52,7 +52,7 @@ const ViewDetails = () => {
             </div>
 
             {/* Book appointment button  */}
-            <div className='border border-gray-300 p-5 mb-5 rounded-xl'>
+            <div className='bg-white border border-gray-300 p-5 mb-5 rounded-xl'>
 
                 <p className='flex justify-between border-b border-gray-400 pb-2'><span className='font-bold'>Availability</span> <span className='font-semibold text-[#ef476f]'>Lawyer Available Today</span></p>
                 <p className='text-yellow-400 py-4 flex items-center gap-1'> <span><BiError size={20} /></span> Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</p>

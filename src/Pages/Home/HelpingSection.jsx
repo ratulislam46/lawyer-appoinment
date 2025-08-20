@@ -18,7 +18,7 @@ const HelpingSection = () => {
                     <div
                         data-aos="fade-up"
                         key={service.id}
-                        className="p-6 rounded-lg shadow hover:shadow-lg transition">
+                        className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
                         <div className="text-5xl mb-4">{service.icon}</div>
                         <h3 className="text-2xl font-semibold mb-2">{service.title}</h3>
                         <p className="text-gray-600">{service.description}</p>

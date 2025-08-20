@@ -7,7 +7,7 @@ const AfterBooking = ({ booked, handleDelete }) => {
 
     return (
         <div  data-aos="fade-up">
-            <div className='border border-gray-300 hover:bg-green-100 hover:border-blue-400 p-5 mb-8 rounded-xl mx-2 md:mx-2 lg:mx-0'>
+            <div className='bg-white border border-gray-300 hover:bg-green-100 hover:border-blue-400 p-5 mb-8 rounded-xl mx-2 md:mx-2 lg:mx-0'>
 
                 <div className='flex justify-between border-b pb-4 border-dashed'>
                     <div>

@@ -27,7 +27,7 @@ const Booking = () => {
     if (displayLawyers.length < 1) return <NoLawyars></NoLawyars>
 
     return (
-        <div className='my-12'>
+        <div className='my-12 container mx-auto'>
 
             {/* rechart  */}
             <div className='flex justify-center'>
