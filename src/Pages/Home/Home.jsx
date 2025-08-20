@@ -3,6 +3,7 @@ import Banner from './Banner';
 import Lawyers from '../Lawyers/Lawyers';
 import { useLoaderData } from 'react-router';
 import Service from './Service';
+import HelpingSection from './HelpingSection';
 
 const Home = () => {
 
@@ -10,16 +11,19 @@ const Home = () => {
     // console.log(data);
 
     return (
-        <div className='container mx-auto'>
+        <div>
             <Banner></Banner>
+            <div className='container mx-auto'>
+                <HelpingSection></HelpingSection>
 
-            <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-                <Lawyers data={data}></Lawyers>
-            </Suspense>
+                <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+                    <Lawyers data={data}></Lawyers>
+                </Suspense>
 
-            <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
-                <Service></Service>
-            </Suspense>
+                <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
+                    <Service></Service>
+                </Suspense>
+            </div>
         </div>
     );
 };

@@ -20,8 +20,8 @@ const Lawyers = ({ data }) => {
 
     return (
         <div className='mt-16 mb-12'>
-            <h1 className='text-center text-3xl md:text-4xl lg:text-5xl'>Our Best Lawyers</h1>
-            <p className='text-center px-4 mt-5 text-gray-500 text-lg mb-12'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
+            <h1 data-aos="fade-up" className='text-center text-3xl md:text-4xl lg:text-5xl'>Our Best Lawyers</h1>
+            <p data-aos="fade-up" className='text-center px-4 mt-5 text-gray-500 text-lg mb-12'>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience. Whether it's a routine checkup or urgent consultation, book appointments in minutes and receive quality care you can trust.</p>
             <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                 {
                     displayLawyers?.map(lawyer =>
@@ -31,7 +31,7 @@ const Lawyers = ({ data }) => {
                         </LawyerDetails>)
                 }
             </div>
-            <div className='text-center'>
+            <div  data-aos="fade-up" className='text-center'>
                 <button onClick={() => {
                     setShowAll(!showAll)
                     if (showAll) window.scrollTo(0, 700)

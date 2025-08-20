@@ -42,8 +42,8 @@ const Booking = () => {
             </div>
 
             {/* booking Appointment  */}
-            <h1 className='text-center font-semibold text-5xl mt-16'>My Today Appointments</h1>
-            <p className='text-center text-xl px-12 mt-5 mb-20 text-gray-500 '>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
+            <h1 data-aos="fade-up" className='text-center font-semibold text-5xl mt-16'>My Today Appointments</h1>
+            <p data-aos="fade-up" className='text-center text-xl px-12 mt-5 mb-20 text-gray-500 '>Our platform connects you with verified, experienced Lawyers across various specialties — all at your convenience.</p>
             <div>
                 {
                     displayLawyers?.map(booked =>

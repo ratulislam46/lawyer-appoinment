@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Family Law",
+    "description": "Expert lawyers to handle divorce, custody, adoption, and family disputes.",
+    "icon": "👨‍👩‍👧"
+  },
+  {
+    "id": 2,
+    "title": "Criminal Law",
+    "description": "Experienced lawyers for criminal defense and legal representation.",
+    "icon": "⚖️"
+  },
+  {
+    "id": 3,
+    "title": "Corporate Law",
+    "description": "Legal services for businesses, contracts, and corporate governance.",
+    "icon": "🏢"
+  },
+  {
+    "id": 4,
+    "title": "Property Law",
+    "description": "Legal guidance for property disputes, transactions, and ownership issues.",
+    "icon": "🏠"
+  },
+  {
+    "id": 5,
+    "title": "Immigration Law",
+    "description": "Assistance with visas, immigration cases, and international legal matters.",
+    "icon": "🌎"
+  },
+  {
+    "id": 6,
+    "title": "Employment Law",
+    "description": "Support for employee rights, contracts, and workplace disputes.",
+    "icon": "💼"
+  }
+]
