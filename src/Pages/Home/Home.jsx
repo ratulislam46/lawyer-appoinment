@@ -4,6 +4,7 @@ import Lawyers from '../Lawyers/Lawyers';
 import { useLoaderData } from 'react-router';
 import Service from './Service';
 import HelpingSection from './HelpingSection';
+import Contact from '../Contact/Contact';
 
 const Home = () => {
 
@@ -23,6 +24,10 @@ const Home = () => {
                 <Suspense fallback={<span className="loading loading-bars loading-xl"></span>}>
                     <Service></Service>
                 </Suspense>
+                
+                <section className='mb-12'> 
+                    <Contact></Contact>
+                </section>
             </div>
         </div>
     );

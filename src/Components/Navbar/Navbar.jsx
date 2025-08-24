@@ -24,11 +24,11 @@ const Navbar = () => {
                                 Booking
                             </NavLink>
                         </li>
-                        <li>
+                        {/* <li>
                             <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>
                                 blogs
                             </NavLink>
-                        </li>
+                        </li> */}
                         <li>
                             <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>
                                 Contact
@@ -56,12 +56,12 @@ const Navbar = () => {
                             Booking
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink
                             className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/blogs'>
                             blogs
                         </NavLink>
-                    </li>
+                    </li> */}
                     <li>
                         <NavLink className={({ isActive }) => isActive ? 'text-blue-500 font-bold underline' : ''} to='/contact'>
                             Contact
