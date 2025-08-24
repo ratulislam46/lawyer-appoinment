@@ -32,7 +32,7 @@ const Contact = () => {
     };
 
     return (
-        <div className='container mx-auto mt-16'>
+        <div  data-aos="fade-up"  className='container mx-auto mt-16'>
             <div className="grid grid-cols-1 gap-8 px-8 py-16 mx-auto rounded-lg md:grid-cols-2 md:px-12 lg:px-16 xl:px-32 bg-white">
                 <div className="flex flex-col justify-between">
                     <div className="space-y-2">
@@ -47,15 +47,17 @@ const Contact = () => {
                     className="space-y-6">
                     <div>
                         <label className="text-sm">Full name</label>
-                        <input name="user_name" type="text" placeholder="" className="w-full p-3 rounded dark:bg-gray-100" />
+                        <input name="user_name" type="text" placeholder="Your Name" className="w-full p-3 rounded dark:bg-gray-100" />
                     </div>
                     <div>
                         <label className="text-sm">Email</label>
-                        <input name="user_email" type="email" className="w-full p-3 rounded dark:bg-gray-100" />
+                        <input name="user_email" type="email" className="w-full p-3 rounded dark:bg-gray-100" 
+                        placeholder='Your Email'/>
                     </div>
                     <div>
                         <label className="text-sm">Message</label>
-                        <textarea name="message" rows="3" className="w-full p-3 rounded dark:bg-gray-100"></textarea>
+                        <textarea name="message" rows="3" className="w-full p-3 rounded dark:bg-gray-100"
+                        placeholder='Write your opinion . . .'></textarea>
                     </div>
                     <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded dark:bg-violet-600 dark:text-gray-50">Send Message</button>
                 </form>
